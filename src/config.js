@@ -38,13 +38,26 @@ export const defaultConfig = {
      */
     blockWords: 'catalyst,innovator,futurist,serial entrepreneur,midas list',
     /**
-     * Ask user to manually confirm all blocks
+     * Default list of keywords that will prevent blocking until user
+     * defines their own allow list.
+     * @constant
+     * @type {string}
+     */
+    allowWords: 'magazine',
+    /**
+     * mute instead of block
+     * @constant
+     * @type {Boolean}
+     */
+    mute: false,
+    /**
+     * Ask user to manually confirm all blocks or mutes
      * @constant
      * @type {Boolean}
      */
     confirm: true,
     /**
-     * Number of accounts blocked by this extension
+     * Number of accounts blocked or muted by this extension
      * @constant
      * @type {number}
      */
@@ -98,8 +111,21 @@ export const requestConfigs = {
      *
      * @constant
      * @type {string}
+     *
+     * Example: POST https://api.twitter.com/1.1/blocks/create.json?screen_name=theSeanCook&skip_status=1
      */
     blockEndpoint: 'https://twitter.com/i/api/1.1/blocks/create.json',
+    /**
+     * API endpoint for muting a user
+     *
+     * @constant
+     * @type {string}
+     *
+     * This differs from blocks, in that it always returns a JSON array for status... no skip_status flag available for mutes
+     *
+     * ref: https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/mute-block-report-users/api-reference/post-mutes-users-create
+     */
+    muteEndpoint: 'https://api.twitter.com/1.1/mutes/users/create.json',
     /**
      * Endpoint for checking current friendship status between self and some other user.
      * @param {string} handle - specify only 1 username
@@ -226,7 +252,7 @@ const rateURL = () => {
 export const shareLinks = {
     github: {
         label: 'source',
-        url: 'https://github.com/MobileFirstLLC/doucheblock',
+        url: 'https://github.com/mateohhh/doucheblockplus',
         svgPath: 'M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14' +
             ' 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,' +
             '15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,' +
