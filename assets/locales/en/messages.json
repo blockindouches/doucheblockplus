@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "DoucheBlock for Twitter"
+    "message": "DoucheBlockPlus for Twitter"
   },
   "appShortName": {
-    "message": "DoucheBlock"
+    "message": "DoucheBlockPlus"
   },
   "appDescription": {
     "message": "Automatically block anyone with specific keywords in their Twitter bio."
@@ -11,8 +11,14 @@
   "blockedWords": {
     "message": "List all your trigger words (separate by comma):"
   },
+  "allowedWords": {
+    "message": "Don't flag when these are present (separate by comma):"
+  },
   "confirmBlock": {
     "message": "Confirm before blocking"
+  },
+  "muteInstead": {
+    "message": "Mute instead of block"
   },
   "saveChanges": {
     "message": "Save"
@@ -39,7 +45,16 @@
     "message": "⚠️ MAJOR DOUCHE ALERT ⚠️"
   },
   "proceedToBlock": {
-    "message": "DO YOU WANT TO BLOCK $name$?️",
+    "message": "Do you want to BLOCK $name$?️",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "this user"
+      }
+    }
+  },
+  "proceedToMute": {
+    "message": "Do you want to MUTE $name$?️",
     "placeholders": {
       "name": {
         "content": "$1",
