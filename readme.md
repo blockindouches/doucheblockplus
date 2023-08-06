@@ -1,4 +1,8 @@
 <p align="center">
+The info below is for the original DoucheBlock extension, this new one is not released or approved in any add-on or extension repo for browsers yet!
+</p>
+<hr>
+<p align="center">
     <a href="http://oss.mobilefirst.me/doucheblock/" target="_blank"><img alt="DoucheBlock for Twitter" src="https://raw.githubusercontent.com/MobileFirstLLC/doucheblock/master/assets/img/128x128.png" width="64" /></a>
 </p>
 <h1 align="center">DoucheBlock for Twitter</h1>
