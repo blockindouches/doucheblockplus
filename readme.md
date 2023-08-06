@@ -1,6 +1,8 @@
 <p align="center">
 <br><br><br><b>
-    NOTE: The info below is for the original DoucheBlock extension! 
+    NOTE: The info below is for the original DoucheBlock extension found here:
+    <br>
+    <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock">https://github.com/MobileFirstLLC/doucheblock</a> 
     <br>
     This new one is not released or approved in any add-on or extension repo for browsers yet!
 </b><br><br><br>
