@@ -1,10 +1,8 @@
 <p align="center">
 <br>
-<br>
     NOTE: The info below is for the original DoucheBlock extension! 
     <br>
     This new one is not released or approved in any add-on or extension repo for browsers yet!
-<br>
 <br>
 </p>
 <hr>
