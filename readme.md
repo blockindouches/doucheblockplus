@@ -1,10 +1,10 @@
 <p align="center">
 <br><br><br><b>
     NOTE: The info below is for the original DoucheBlock extension found here:
-    <br>
-    <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock">https://github.com/MobileFirstLLC/doucheblock</a> 
-    <br>
-    This new one is not released or approved in any add-on or extension repo for browsers yet!
+    <br><br>
+    <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock">github.com/MobileFirstLLC/doucheblock</a> 
+    <br><br>
+    This new version is not released or approved in any add-on or extension repo for browsers yet!
 </b><br><br><br>
 </p>
 <hr>
