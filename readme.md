@@ -1,5 +1,7 @@
 <p align="center">
-The info below is for the original DoucheBlock extension, this new one is not released or approved in any add-on or extension repo for browsers yet!
+<br>
+    NOTE: The info below is for the original DoucheBlock extension, this new one is not released or approved in any add-on or extension repo for browsers yet!
+<br>
 </p>
 <hr>
 <p align="center">
