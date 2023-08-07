@@ -6,7 +6,9 @@
     <br><br>
     It can only be manually installed using the extension manager in Firefox Developer, or with Developer Mode turned on in Chrome, Opera and Edge (Safari probably works, but currently unknown.)
     <br><br>
-    Currently still a Manifest v2 extension, which may not be approved for add-on stores as Manifest v3 may be required now, and I probably will not be converting it any time soon. Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser.
+    Currently still a Manifest v2 extension, which may not be approved for add-on stores as support for Manifest v2 is ending in 2023, and Manifest v3 may be required now for either approval, or being able to function in a browser, and I probably will not be converting it any time soon.
+    <br><br>
+    Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser.
     <br><br>
     You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master?diff=split#files_bucket">code differences between this extension and the original DoucheBlock here</a>.</b>
     <br><br><br>
