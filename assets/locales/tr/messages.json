@@ -1,24 +1,24 @@
 {
   "appName": {
-    "message": "NEED TO CHANGE: Twitter için DenyoEngelleyici"
+    "message": "Twitter için DenyoEngelleyiciPlus"
   },
   "appShortName": {
-    "message": "NEED TO CHANGE: DenyoEngelleyici"
+    "message": "DenyoEngelleyiciPlus"
   },
   "appDescription": {
-    "message": "NEED TO CHANGE: Twitter biyografisinde belirli anahtar sözcükler olan herkesi otomatik olarak engelleyin."
+    "message": "Twitter biyografisinde belirli anahtar sözcükler olan herkesi otomatik olarak engelleyin."
   },
   "blockedWords": {
     "message": "Tüm tetikleyici sözcüklerinizi listeleyin (virgülle ayırın):"
   },
   "allowedWords": {
-    "message": "NEED TO CHANGE: Bunlar varken işaretlemeyin (virgülle ayırın):"
+    "message": "İzin verilen kelimeler - mevcut olduğunda bir hesabı işaretlemeyin:"
   },
   "muteInstead": {
-    "message": "Engellemek yerine sessize al"
+    "message": "Engelle yerine sessize al"
   },
   "confirmBlock": {
-    "message": "NEED TO CHANGE: Engellemeden önce onayla"
+    "message": "Sessize Alma veya Engellemeden önce onaylayın"
   },
   "saveChanges": {
     "message": "Kaydet"
@@ -120,7 +120,7 @@
     "message": "<h2>Tetikleyici anahtar sözcükleri yapılandırma</h2><ul><li>Her sözcüğü, sözcük çiftini veya ifadeyi virgülle ayırın; biyografilere karşı ayrı ayrı değerlendirileceklerdir</li><li>Anahtar sözcük eşleşmesi büyük/küçük harfe duyarsızdır &mdash; <code>abc</code> ile <code>AbC</code> <code>aBC</code> ...vs. eşleşir</li><li>Engellenecek anahtar sözcükler olarak emojileri kullanabilirsiniz <span style='font-size:120%'>\uD83E\uDD72</span></li><li>Düzenli ifade kalıpları desteklenir: <a href='https://cheatography.com/davechild/cheat-sheets/regular-expressions/' target='_blank' rel='noreferrer noopener' class='link'>kısa bir özetini burada bulabilirsiniz</a></li><li>ÖNEMLİ: düzenli ifade ters eğik çizgi içeriyorsa bunları kaçırmanız gerekir - örnek: <code>\\b</code> şu şekilde yazılmalıdır: <code>\\\\b</code></li><li>Biyografinin herhangi bir yerinde bir anahtar sözcüğün bulunması, eşleşme olarak sayılır (alt dizge eşleşmesi) - tam sözcüklerle eşleşmek için düzenli ifade sözcük sınırını belirtin</li><li>Anahtar sözcük değerlendirme önceliği, anahtar sözcük listesindeki sözcüklerin sırası ile aynıdır.</li></ul>"
   },
   "configuring_allowed_words": {
-    "message": "NEED TO CHANGE: <h2>Configuring allowed keywords</h2><ul><li>Many trigger word may cast too wide a net and can sweep up someone you'd like to stay visible, but you can also provide keywords that will exempt any account with those words from any automatic mute, block or prompt to action. All the same principles above apply the same for making your list apply here. DoucheBlock will ignore accounts with those words. You can always mute or block anyone manually at any time.</li></ul>"
+    "message": "<h2>İzin verilen anahtar kelimeleri yapılandırma</h2>Pek çok tetikleyici kelime geniş bir ağ oluşturur ve görünür kalmasını istediğiniz birini tarayabilir, ancak hesapları herhangi bir otomatik sessize alma, engelleme veya harekete geçirme isteminden muaf tutacak anahtar kelimeler de sağlayabilirsiniz. Bir liste yapmak için yukarıdaki tüm aynı ilkeler burada da geçerlidir. DoucheBlock, bu kelimeleri içeren hesapları yok sayacaktır. İstediğiniz zaman herhangi birinin sesini manuel olarak kapatabilir veya engelleyebilirsiniz."
   },
   "whitelist_help": {
     "message": "<h2>Beyaz listeye alma</h2><p>\"Engellemeden önce onayla\" modu kullanılırken, uyarıldığında \"cancel\" diyerek birini engellememeyi seçerseniz, o kullanıcı beyaz listeye eklenecektir. O kullanıcı hakkında daha fazla uyarı almayacaksınız. Yine de o kullanıcıyı daha sonra Twitter'da engelleyebilirsiniz.<br/><br/>Otomatik engelleme modu kullanılırken beyaz liste uygulanmaz.</p>"
