@@ -1,5 +1,5 @@
 <p align="left">
-<br><br><br><b>
+<br><b>
     NOTE: This extended version is not released or approved in any add-on or extension repo for browsers yet!
     <br><br>
     Currently an unsigned extension. It has NOT gone through official security checks with Firefox, Chrome, etc.
