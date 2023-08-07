@@ -19,7 +19,7 @@
 <hr>
 <p align="center"><b>
     <br><br>
-    The info below is for the original DoucheBlock extension found here:
+    Information below is for the original DoucheBlock extension found here:
     <br><br>
     <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock">github.com/MobileFirstLLC/doucheblock</a> 
 </b><br><br><br>
