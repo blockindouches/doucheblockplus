@@ -9,7 +9,7 @@
     "message": "Twitter biyografisinde belirli anahtar sözcükler olan herkesi otomatik olarak engelleyin."
   },
   "blockedWords": {
-    "message": "Tüm tetikleyici sözcüklerinizi listeleyin (virgülle ayırın):"
+    "message": "Tüm engelleme kelimelerinizi listeleyin (virgülle ayırın):"
   },
   "allowedWords": {
     "message": "İzin verilen kelimeler - mevcut olduğunda bir hesabı işaretlemeyin:"

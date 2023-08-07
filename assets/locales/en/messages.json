@@ -9,7 +9,7 @@
     "message": "Automatically block or mute anyone with specific keywords in their Twitter name or bio."
   },
   "blockedWords": {
-    "message": "List all your trigger words (separate by comma):"
+    "message": "List all your blocking words (separate by comma):"
   },
   "allowedWords": {
     "message": "Allowed words - do not flag an account when present:"
