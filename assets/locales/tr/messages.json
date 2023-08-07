@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Twitter için DenyoEngelleyici"
+    "message": "Twitter için DenyoEngelleyiciPlus"
   },
   "appShortName": {
-    "message": "DenyoEngelleyici"
+    "message": "DenyoEngelleyiciPlus"
   },
   "appDescription": {
     "message": "Twitter biyografisinde belirli anahtar sözcükler olan herkesi otomatik olarak engelleyin."
@@ -12,7 +12,7 @@
     "message": "Tüm tetikleyici sözcüklerinizi listeleyin (virgülle ayırın):"
   },
   "allowedWords": {
-    "message": "Bunlar varken işaretlemeyin (virgülle ayırın):"
+    "message": "İzin verilen kelimeler - mevcut olduğunda bir hesabı işaretlemeyin:"
   },
   "confirmBlock": {
     "message": "Sessize Alma veya Engellemeden önce onaylayın"
