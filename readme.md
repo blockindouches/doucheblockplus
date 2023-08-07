@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
 <br><br><br><b>
     NOTE: This extended version is not released or approved in any add-on or extension repo for browsers yet!
     <br><br>
