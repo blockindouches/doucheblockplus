@@ -10,9 +10,10 @@
     <br><br>
     Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser.
     <br><br>
-    You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master?diff=split#files_bucket">code differences between this extension and the original DoucheBlock here</a>.</b>
+    You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master?diff=split#files_bucket">code differences between this extension and the original DoucheBlock here</a>.
     <br><br>
-    ERRORS: all Chromium-based browsers (Chrome, Edge, Opera) will report an error, specifically because it's a Manifest v2 extension.
+    ERRORS: all Chromium-based browsers (Chrome, Edge, Opera) will report an error, specifically because it's a Manifest v2 extension, due to reasons explained above.
+    </b>
 </p>
 <p align="center"><b>
     <br>
