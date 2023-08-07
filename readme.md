@@ -8,7 +8,7 @@
     <br><br>
     Currently still a Manifest v2 extension, which may not be approved for add-on stores as "support for Manifest v2 is ending in 2023", and Manifest v3 may be required now for approval, and/or being able to continue functioning in updated browsers, and I probably will not be converting it to v3 any time soon. At present time it works, hopefully that continues.
     <br><br>
-    Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser.
+    Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser (assuming v2 support continues.)
     <br><br>
     You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master?diff=split#files_bucket">code differences between this extension and the original DoucheBlock here</a>.
     <br><br>
