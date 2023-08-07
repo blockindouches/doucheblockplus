@@ -230,15 +230,30 @@ export const maxLogSize = 100;
 const rateURL = () => {
     let link;
     if (isFirefox) {
+        /*
         link = 'https://addons.mozilla.org/en-US/firefox/addon/doucheblock-for-twitter';
+        */
+        link = 'https://github.com/blockindouches/doucheblockplus#readme';
     } else if (isChrome) {
+        /*
         link = 'https://chrome.google.com/webstore/detail/eeledoologbepiegnccedjigjkblhmhi/reviews';
+        */
+        link = 'https://github.com/blockindouches/doucheblockplus#readme';
     } else if (isEdge) {
+        /*
         link = 'https://microsoftedge.microsoft.com/addons/detail/jjamkfoaemeiacomhpidlhkjinmpmkpj';
+        */
+        link = 'https://github.com/blockindouches/doucheblockplus#readme';
     } else if (isOpera) {
+        /*
         link = 'https://addons.opera.com/en/extensions/details/doucheblock-for-twitter/';
+        */
+        link = 'https://github.com/blockindouches/doucheblockplus#readme';
     } else if (isSafari) {
+        /*
         link = 'https://apps.apple.com/us/app/doucheblock-for-twitter/id1576147372';
+        */
+        link = 'https://github.com/blockindouches/doucheblockplus#readme';
     }
     return link;
 };
