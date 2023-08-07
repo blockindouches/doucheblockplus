@@ -5,6 +5,8 @@
     <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock">github.com/MobileFirstLLC/doucheblock</a> 
     <br><br>
     This new version is not released or approved in any add-on or extension repo for browsers yet!
+    <br><br>
+    You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master">code differences between this extension and the original here</a>.
 </b><br><br><br>
 </p>
 <hr>
