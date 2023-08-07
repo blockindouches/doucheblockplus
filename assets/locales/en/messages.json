@@ -1,24 +1,24 @@
 {
   "appName": {
-    "message": "DoucheBlockPlus for Twitter"
+    "message": "DoucheBlock for Twitter"
   },
   "appShortName": {
-    "message": "DoucheBlockPlus"
+    "message": "DoucheBlock"
   },
   "appDescription": {
-    "message": "Automatically block anyone with specific keywords in their Twitter bio."
+    "message": "Automatically block or mute anyone with specific keywords in their Twitter name or bio."
   },
   "blockedWords": {
     "message": "List all your trigger words (separate by comma):"
   },
   "allowedWords": {
-    "message": "Don't flag when these are present (separate by comma):"
+    "message": "Allowed words - do not flag an account when present:"
   },
   "confirmBlock": {
-    "message": "Confirm before blocking"
+    "message": "Confirm before Mute or Block"
   },
   "muteInstead": {
-    "message": "Mute instead of block"
+    "message": "Mute instead of Block"
   },
   "saveChanges": {
     "message": "Save"
@@ -118,6 +118,9 @@
   },
   "configuring_words": {
     "message": "<h2>Configuring trigger keywords</h2><ul><li>Separate each word, word pair, or expression by a comma; they will be evaluated individually against bios</li><li>Keyword match is case-insensitive &mdash; <code>abc</code> matches <code>AbC</code> <code>aBC</code> ...etc.</li><li>You can use emojis as blocking keywords <span style='font-size:120%'>\uD83E\uDD72</span></li><li>Regex patterns are supported: <a href='https://cheatography.com/davechild/cheat-sheets/regular-expressions/' target='_blank' rel='noreferrer noopener' class='link'>here is a cheat sheet</a></li><li>IMPORTANT: when regex contains backslashes, you must escape them - example: <code>\\b</code> should be written as <code>\\\\b</code></li><li>Occurrence of a keyword anywhere in the bio counts as match (substring match) - specify regex word boundary to match by whole words</li><li>Keyword evaluation priority is the same as order of words in keyword list</li></ul>"
+  },
+  "configuring_allowed_words": {
+    "message": "<h2>Configuring allowed keywords</h2>Many trigger words cast a wide net, and can sweep up someone you'd like to stay visible, but you can also provide keywords that will exempt accounts from any automatic mute, block or prompt to action. All the same principles above for making a list apply here. DoucheBlockPlus will ignore accounts with those words. You can always mute or block anyone manually at any time."
   },
   "whitelist_help": {
     "message": "<h2>Whitelisting</h2><p>When using \"confirm before blocking\" mode, if you choose not to block someone when alerted by choosing \"cancel\", that handle will be added to a whitelist. You will not receive further alerts about that handle. You can still always block that user later on twitter.<br/><br/>When using automatic blocking mode, whitelist does not apply.</p>"
