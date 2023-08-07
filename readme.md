@@ -10,7 +10,7 @@
     <br><br>
     Currently still a Manifest v2 extension, which may not be approved for Chromium add-on stores as Chrome "support for Manifest v2 is ending in 2023", and Manifest v3 may be required now for approval, and/or being able to continue functioning, and I probably will not be converting it to v3 any time soon. At present time it works, hopefully that remains true with browser updates.
     <br><br>
-    Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser (assuming v2 support continues.)
+    <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox Developer</a> is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> already enabled to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and you can use it as a separate social media browser (assuming v2 support continues.)
     <br><br>
     KNOWN ERROR: all Chromium-based browsers (Chrome, Edge, Opera) will report an error, specifically because it's still a Manifest v2 extension, due to reasons explained above.
     </b>
