@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Twitter için DenyoEngelleyiciPlus"
+    "message": "Twitter için DenyoEngelleyici"
   },
   "appShortName": {
-    "message": "DenyoEngelleyiciPlus"
+    "message": "DenyoEngelleyici"
   },
   "appDescription": {
     "message": "Twitter biyografisinde belirli anahtar sözcükler olan herkesi otomatik olarak engelleyin."
@@ -120,7 +120,7 @@
     "message": "<h2>Tetikleyici anahtar sözcükleri yapılandırma</h2><ul><li>Her sözcüğü, sözcük çiftini veya ifadeyi virgülle ayırın; biyografilere karşı ayrı ayrı değerlendirileceklerdir</li><li>Anahtar sözcük eşleşmesi büyük/küçük harfe duyarsızdır &mdash; <code>abc</code> ile <code>AbC</code> <code>aBC</code> ...vs. eşleşir</li><li>Engellenecek anahtar sözcükler olarak emojileri kullanabilirsiniz <span style='font-size:120%'>\uD83E\uDD72</span></li><li>Düzenli ifade kalıpları desteklenir: <a href='https://cheatography.com/davechild/cheat-sheets/regular-expressions/' target='_blank' rel='noreferrer noopener' class='link'>kısa bir özetini burada bulabilirsiniz</a></li><li>ÖNEMLİ: düzenli ifade ters eğik çizgi içeriyorsa bunları kaçırmanız gerekir - örnek: <code>\\b</code> şu şekilde yazılmalıdır: <code>\\\\b</code></li><li>Biyografinin herhangi bir yerinde bir anahtar sözcüğün bulunması, eşleşme olarak sayılır (alt dizge eşleşmesi) - tam sözcüklerle eşleşmek için düzenli ifade sözcük sınırını belirtin</li><li>Anahtar sözcük değerlendirme önceliği, anahtar sözcük listesindeki sözcüklerin sırası ile aynıdır.</li></ul>"
   },
   "configuring_allowed_words": {
-    "message": "<h2>İzin verilen anahtar kelimeleri yapılandırma</h2>Pek çok tetikleyici kelime geniş bir ağ oluşturur ve görünür kalmasını istediğiniz birini tarayabilir, ancak hesapları herhangi bir otomatik sessize alma, engelleme veya harekete geçirme isteminden muaf tutacak anahtar kelimeler de sağlayabilirsiniz. Bir liste yapmak için yukarıdaki tüm aynı ilkeler burada da geçerlidir. DoucheBlock, bu kelimeleri içeren hesapları yok sayacaktır. İstediğiniz zaman herhangi birinin sesini manuel olarak kapatabilir veya engelleyebilirsiniz."
+    "message": "<h2>İzin verilen anahtar kelimeleri yapılandırma</h2>Pek çok tetikleyici kelime geniş bir ağ oluşturur ve görünür kalmasını istediğiniz birini tarayabilir, ancak hesapları herhangi bir otomatik sessize alma, engelleme veya harekete geçirme isteminden muaf tutacak anahtar kelimeler de sağlayabilirsiniz. Bir liste yapmak için yukarıdaki tüm aynı ilkeler burada da geçerlidir. DenyoEngelleyici, bu kelimeleri içeren hesapları yok sayacaktır. İstediğiniz zaman herhangi birinin sesini manuel olarak kapatabilir veya engelleyebilirsiniz."
   },
   "whitelist_help": {
     "message": "<h2>Beyaz listeye alma</h2><p>\"Engellemeden önce onayla\" modu kullanılırken, uyarıldığında \"cancel\" diyerek birini engellememeyi seçerseniz, o kullanıcı beyaz listeye eklenecektir. O kullanıcı hakkında daha fazla uyarı almayacaksınız. Yine de o kullanıcıyı daha sonra Twitter'da engelleyebilirsiniz.<br/><br/>Otomatik engelleme modu kullanılırken beyaz liste uygulanmaz.</p>"
