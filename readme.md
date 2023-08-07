@@ -1,6 +1,6 @@
 <p align="center">
 <br><br><br><b>
-    NOTE: This new version is not released or approved in any add-on or extension repo for browsers yet!
+    NOTE: This extended version is not released or approved in any add-on or extension repo for browsers yet!
     <br><br>
     Currently an unsigned extension. It has NOT gone through official security checks with Firefox, Chrome, etc. It can only be manually installed in Firefox Developer, or using Developer Mode in Chrome, Opera and Edge (Safari probably works, but currently unknown.)
     <br><br>
