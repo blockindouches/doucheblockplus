@@ -4,7 +4,7 @@
     <br><br>
     Currently an unsigned extension. It has NOT gone through official security checks with Firefox, Chrome, etc.
     <br><br>
-    It can only be manually installed using the extension manager in <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox Developer</a>, or with Developer Mode turned on in Chrome, Opera and Edge (Safari probably works, but currently unknown.)
+    It can only be manually installed using the extension manager in <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox Developer</a>, or with Developer Mode turned on in Chrome, Opera and Edge (Safari probably works similarly, but currently unknown.)
     <br><br>
     Currently still a Manifest v2 extension, which may not be approved for add-on stores as "support for Manifest v2 is ending in 2023", and Manifest v3 may be required now for approval, and/or being able to function in a browser, and I probably will not be converting it any time soon. At present time it works, hopefully that continues.
     <br><br>
