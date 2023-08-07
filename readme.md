@@ -3,7 +3,7 @@
     NOTE: This new version is not released or approved in any add-on or extension repo for browsers yet!
     <br><br>
     You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master">code differences between this extension and the original DoucheBlock here</a>.</b>
-    <br><br>
+    <br><br><br>
 </p>
 <hr>
 <p align="center"><b>
