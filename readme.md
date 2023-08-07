@@ -17,7 +17,7 @@
 </p>
 <p align="center"><b>
     <br>
-    <img style="width: 500px;" src="https://github.com/blockindouches/doucheblockplus/blob/master/DoucheBlock-Plus.png">
+    <img style="width: 500px;" src="https://github.com/blockindouches/doucheblockplus/blob/master/Douche-Block-Plus.png">
     <br>
 </p>
 <hr>
