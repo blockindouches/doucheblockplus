@@ -2,7 +2,7 @@
 <br><br><br><b>
     NOTE: This new version is not released or approved in any add-on or extension repo for browsers yet!
     <br><br>
-    Currently an unsigned extension. It has not gone through official security checks with Firefox, Chrome, etc. It can only be manually installed in Firefox Developer, or using Developer Mode in Chrome, Opera and Edge (Safari probably works, but currently unknown.)
+    Currently an unsigned extension. It has <u>NOT</u> gone through official security checks with Firefox, Chrome, etc. It can only be manually installed in Firefox Developer, or using Developer Mode in Chrome, Opera and Edge (Safari probably works, but currently unknown.)
     <br><br>
     Currently still a Manifest v2 extension, which may not be approved for add-on stores as Manifest v3 may be required now, and I probably will not be converting it any time soon. Firefox Developer is always a good option. It comes with <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> for to prevent tracking and increase privacy, add and install <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi-Account Containers by Mozilla Firefox</a> to assign containers to Twitter, etc, and it as a separate social media browser.
     <br><br>
