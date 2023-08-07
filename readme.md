@@ -12,7 +12,7 @@
     <br><br>
     You can view the <a target="_blank" href="https://github.com/MobileFirstLLC/doucheblock/compare/master...blockindouches:doucheblockplus:master?diff=split#files_bucket">code differences between this extension and the original DoucheBlock here</a>.</b>
     <br><br>
-    <img src="https://github.com/blockindouches/doucheblockplus/blob/master/DoucheBlockPlus.png">
+    <img style="width: 400px;" src="https://github.com/blockindouches/doucheblockplus/blob/master/DoucheBlockPlus.png">
     <br><br><br>
 </p>
 <hr>
