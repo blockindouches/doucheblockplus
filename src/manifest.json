@@ -52,7 +52,8 @@
   "firefox": {
     "applications": {
       "gecko": {
-        "strict_min_version": "53.0"
+        "id": "{ff553cf8-6edd-4a73-8541-d5b42ed657dd}",
+        "strict_min_version": "42.0"
       }
     },
     "incognito": "spanning"
