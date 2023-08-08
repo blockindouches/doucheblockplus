@@ -2,7 +2,7 @@
 
 import Storage from '../modules/storage';
 import Tabs from '../modules/tabs';
-import DOMPurify from '../modules/dompurify';
+import DOMPurify from 'dompurify';
 import Page from './page';
 
 /**

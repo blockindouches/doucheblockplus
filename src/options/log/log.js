@@ -1,7 +1,7 @@
 // noinspection JSUnresolvedVariable,JSUnresolvedFunction
 
 import Storage from '../../modules/storage';
-import DOMPurify from '../modules/dompurify';
+import DOMPurify from 'dompurify';
 import {maxLogSize} from '../../config';
 import Page from '../page';
 

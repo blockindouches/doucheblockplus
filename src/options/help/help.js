@@ -1,6 +1,6 @@
 // noinspection JSUnresolvedVariable,JSUnresolvedFunction
 
-import DOMPurify from '../modules/dompurify';
+import DOMPurify from 'dompurify';
 import Page from '../page';
 
 /**
