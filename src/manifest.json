@@ -52,7 +52,7 @@
   "firefox": {
     "applications": {
       "gecko": {
-        "id": "{ff553cf8-6edd-4a73-8541-d5b42ed657dd}",
+        "id": "",
         "strict_min_version": "42.0"
       }
     },
