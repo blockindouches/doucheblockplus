@@ -165,10 +165,12 @@ export default class Index extends Page {
             const container = Index.getElement('intro-container');
             const close = Index.getElement('close-intro');
 
-            Index.getElement('intro-greeting').innerHTML =
-                DOMPurify.sanitize(Index.translate('intro_greeting'));
-            Index.getElement('intro-text').innerHTML =
-                DOMPurify.sanitize(Index.translate('intro_text'));
+            const cleanIntroGreeting = DOMPurify.sanitize(Index.translate('intro_greeting'))
+            Index.getElement('intro-greeting').innerHTML = cleanIntroGreeting;
+            
+            const cleanIntroText = DOMPurify.sanitize(Index.translate('intro_text'));
+            Index.getElement('intro-text').innerHTML = cleanIntroText;
+
             Index.getElement('intro').parentNode.style.display = 'block';
             close.onclick = _ => container.parentNode.removeChild(container);
             close.onkeypress = _ => container.parentNode.removeChild(container);

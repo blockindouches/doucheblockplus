@@ -24,9 +24,11 @@ export default class Log extends Page {
         Storage.getLog(logEntries => {
             if (!logEntries || !logEntries.length) {
                 Log.logTarget.setAttribute('class', 'empty');
-                Log.logTarget.innerHTML = DOMPurify.sanitize(Log.translate('log_empty'));
+                const cleanLog = DOMPurify.sanitize(Log.translate('log_empty'));
+                Log.logTarget.innerHTML = cleanLog;
             } else {
-                Log.logTarget.innerHTML = DOMPurify.sanitize('');
+                const cleanLog = DOMPurify.sanitize(Log.translate(''));
+                Log.logTarget.innerHTML = cleanLog;
                 for (let i = 0; i < logEntries.length; i++) {
                     Log.logTarget.appendChild(Log.renderLogEntry(logEntries[i]));
                 }

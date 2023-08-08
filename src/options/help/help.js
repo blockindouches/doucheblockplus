@@ -16,8 +16,14 @@ export default class Help extends Page {
      */
     constructor() {
         super('help');
-        Help.getElement('keywords').innerHTML = DOMPurify.sanitize(Help.translate('configuring_words'));
-        Help.getElement('allowedKeywords').innerHTML = DOMPurify.sanitize(Help.translate('configuring_allowed_words'));
-        Help.getElement('whitelist').innerHTML = DOMPurify.sanitize(Help.translate('whitelist_help'));
+        
+        const cleanWords = DOMPurify.sanitize(Help.translate('configuring_words'));
+        Help.getElement('keywords').innerHTML = cleanWords;
+        
+        const cleanAllowedWords = DOMPurify.sanitize(Help.translate('configuring_allowed_words'));
+        Help.getElement('allowedKeywords').innerHTML = cleanAllowedWords;
+        
+        const cleanWhitelist = DOMPurify.sanitize(Help.translate('whitelist_help'));
+        Help.getElement('whitelist').innerHTML = cleanWhitelist;
     }
 }
