@@ -52,7 +52,7 @@
   "firefox": {
     "browser_specific_settings": {
       "gecko": {
-        "id": "doucheblockplus@blockindouches.github.com",
+        "id": "{65c0bd3a-c361-4abf-b5f2-a8717feadf8a}",
         "strict_min_version": "42.0"
       }
     },
