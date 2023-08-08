@@ -1,3 +1,4 @@
+import DOMPurify from '../modules/dompurify';
 import {shareLinks} from '../config';
 
 /**
