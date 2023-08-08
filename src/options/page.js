@@ -50,8 +50,8 @@ export default class Page {
         const links = Object.values(shareLinks).map(Page.makeShareLink).join('');
         const label = document.createElement('p');
 
-        label.innerHTML = Page.translate('links');
-        Page.getElement('share').innerHTML = links;
+        label.innerHTML = DOMPurify.sanitize(Page.translate('links'));
+        Page.getElement('share').innerHTML = DOMPurify.sanitize(links);
         Page.getElement('share').prepend(label);
     }
 

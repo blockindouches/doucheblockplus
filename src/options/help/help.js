@@ -16,8 +16,8 @@ export default class Help extends Page {
      */
     constructor() {
         super('help');
-        Help.getElement('keywords').innerHTML = Help.translate('configuring_words');
-        Help.getElement('allowedKeywords').innerHTML = Help.translate('configuring_allowed_words');
-        Help.getElement('whitelist').innerHTML = Help.translate('whitelist_help');
+        Help.getElement('keywords').innerHTML = DOMPurify.sanitize(Help.translate('configuring_words'));
+        Help.getElement('allowedKeywords').innerHTML = DOMPurify.sanitize(Help.translate('configuring_allowed_words'));
+        Help.getElement('whitelist').innerHTML = DOMPurify.sanitize(Help.translate('whitelist_help'));
     }
 }

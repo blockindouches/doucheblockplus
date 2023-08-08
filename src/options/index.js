@@ -166,9 +166,9 @@ export default class Index extends Page {
             const close = Index.getElement('close-intro');
 
             Index.getElement('intro-greeting').innerHTML =
-                Index.translate('intro_greeting');
+                DOMPurify.sanitize(Index.translate('intro_greeting'));
             Index.getElement('intro-text').innerHTML =
-                Index.translate('intro_text');
+                DOMPurify.sanitize(Index.translate('intro_text'));
             Index.getElement('intro').parentNode.style.display = 'block';
             close.onclick = _ => container.parentNode.removeChild(container);
             close.onkeypress = _ => container.parentNode.removeChild(container);
